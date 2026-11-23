@@ -59,6 +59,7 @@ h1 strong { font-weight: 500; }
 h2 { margin-block: 2rem .85rem; font-size: 1.6rem; font-weight: 500; line-height: 1.25; }
 h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.45; }
 .greeting { margin-bottom: .3rem; }
+.affiliation, .research-subject { font-family: Cousine, monospace; }
 .affiliation { margin-block: .55rem 1.15rem; }
 .portrait {
   float: right;
@@ -69,12 +70,12 @@ h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.45; }
 .portrait-image {
   width: 100%;
   aspect-ratio: 250 / 352;
-  background: var(--wash) center / cover no-repeat;
+  background: var(--wash) center bottom / 122% auto no-repeat;
   pointer-events: none;
   user-select: none;
 }
-figcaption { margin-top: .65rem; color: var(--accent); font: 400 1rem/1.5 Cousine, monospace; }
-.records, .bibliography { margin: 1.35rem 0 0; padding: 0; list-style: none; }
+figcaption { margin-top: .65rem; color: var(--muted); font: 400 1rem/1.5 Cousine, monospace; }
+.records { margin: 1.35rem 0 0; padding: 0; list-style: none; }
 .records > li, .bibliography > li { padding-block: .95rem; border-bottom: 1px solid var(--line); }
 .records > li { display: grid; grid-template-columns: 8rem 1fr; gap: .9rem; }
 .year { font-size: .93rem; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -110,7 +111,7 @@ figcaption { margin-top: .65rem; color: var(--accent); font: 400 1rem/1.5 Cousin
   .cv-preview { display: none; }
 }
 .record-title { margin: 0; font-size: 1.05rem; font-weight: 600; line-height: 1.45; }
-.bibliography { margin-top: 0; }
+.bibliography { margin: 0; padding-inline-start: 2rem; list-style: decimal; }
 .bibliography a { overflow-wrap: anywhere; }
 
 .accent-text { color: var(--accent); }
