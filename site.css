@@ -70,7 +70,7 @@ h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.45; }
 .portrait-image {
   width: 100%;
   aspect-ratio: 250 / 352;
-  background: var(--wash) center 94% / 160% auto no-repeat;
+  background: var(--wash) center bottom / 122% auto no-repeat;
   pointer-events: none;
   user-select: none;
 }
