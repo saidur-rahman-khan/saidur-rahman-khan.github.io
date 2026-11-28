@@ -82,6 +82,7 @@ figcaption { margin-top: .65rem; color: var(--muted); font: 400 1rem/1.5 Cousine
 .record p + p { margin-top: .4rem; }
 .bibliography h3 { margin-block: .23rem; }
 .metadata { color: var(--muted); font-size: .93rem; }
+.bibliography strong { font-weight: 700; }
 .status { font-weight: 600; }
 .cv-links { display: flex; gap: .7rem; flex-wrap: wrap; margin-block: 1.5rem; }
 .cv-links a { display: inline-block; padding: .38rem .8rem; border: 1px solid var(--line); border-radius: .26rem; text-decoration: none; }
